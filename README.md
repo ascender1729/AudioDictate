@@ -11,16 +11,16 @@ AudioDictate is an intuitive desktop application designed to transcribe audio co
 - [Running the Application](#running-the-application)
 - [How to Use](#how-to-use)
 - [Tools and Technologies](#tools-and-technologies)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Features
 
-- **Audio File Transcription**: Converts spoken words from audio files into written text.
+- **Audio File Transcription**: Converts spoken words from audio files into written text with high accuracy.
 - **WAV File Conversion**: Automatically converts non-WAV files to WAV format for processing.
-- **Offline Functionality**: No internet connection required, ensuring data privacy and security.
-- **Drag-and-Drop Interface**: Simple drag-and-drop feature for easy file submission.
-- **Interactive GUI**: Provides a user-friendly interface for all interactions with the application.
+- **Offline Functionality**: Processes audio files offline, ensuring data privacy and security.
+- **Interactive GUI**: Provides a user-friendly interface for file selection and displaying transcription results.
 
 ## Prerequisites
 
@@ -74,11 +74,11 @@ deactivate
 
 ## How to Use
 
-1. Start AudioDictate.
-2. Input the Vosk model directory when prompted.
-3. Use the file dialog to select your audio file or drag and drop it into the application window.
-4. If the file is not a WAV file, choose an output directory for the conversion.
-5. The transcribed text will be displayed within the application window.
+1. Start **AudioDictate**.
+2. When prompted, input the directory path to the Vosk model.
+3. Use the application's interface to select your audio file. The application supports browsing and selecting the file directly within the app.
+4. If the selected file is not in WAV format, you'll be asked to select an output directory for the conversion process.
+5. After processing, the transcribed text will be displayed within the application window.
 
 ## Tools and Technologies
 
@@ -109,6 +109,17 @@ deactivate
     <td>The core language used for developing the application.</td>
   </tr>
 </table>
+
+## Contributing
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Create a new Pull Request.
+
 
 ## License
 
